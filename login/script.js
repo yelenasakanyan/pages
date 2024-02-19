@@ -58,7 +58,7 @@ let passwordValidation = function () {
         password_error.innerHTML = "Password must contain at least one number!";
     }
     else {
-        password_error.innerHTML = ""
+        password_error.innerHTML = "";
         created.innerHTML = "Your password created successfully";
     }
 }
