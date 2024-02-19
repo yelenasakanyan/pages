@@ -1,0 +1,42 @@
+#users-list {
+    display: grid;
+    grid-template-areas: "search ."
+        "list list"
+        "list list";
+
+    height: 1000px;
+}
+
+#user-list-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-area: list;
+}
+
+#user-list-search-button{
+    cursor: pointer;
+}
+
+.user {
+    margin: 8px;
+    border: 1px solid black
+}
+
+.user-profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.user-login {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+
+.user-details-twitter-logo {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+

@@ -1,0 +1,14 @@
+#logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#title {
+    display: inline-block;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+}

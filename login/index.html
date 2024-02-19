@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../common/style.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+
+    
+    <div id="header">
+        <img id="logo"
+            src="https://banner2.cleanpng.com/20180326/gxq/kisspng-github-computer-icons-icon-design-github-5ab8a31e334e73.4114704215220498222102.jpg"
+            alt="logo">
+        <a href="../users-list/index.html">Back</a>
+    </div>
+    <div id="login-container">
+       
+        <form id="login-form">
+            <header>Signup</header>
+            <input type="text" id="login-username" placeholder="Username" name="username"/>
+            <span id="UsernameError" class="error"></span><br>
+            <div id="login-password-container">
+
+                <input type="password" id="login-password" placeholder="Password" name="password" />
+                <button id="login-show">show</button>
+                <span id="passwordError" class="error"></span><br>
+                <span id="password_created"></span><br>
+            </div>
+            <input type="date"  id="date"/>
+            <div>
+                <p>Gender </p>
+                <input type="radio" name="gen" value="Male" id="login-gender-male" /> <label for="login-gender-male">Male</label>
+                <input type="radio" name="gen" value="Female" id="login-gender-female" /> <label
+                    for="login-gender-female">Female</label>
+                    <span id="genderError" class="error"></span><br>
+            </div>
+            <div>
+                <input type="checkbox" name ="accept" id="login-accept-terms"/><label for="login-accept-terms">I accept <a href="https://termly.io/resources/templates/terms-and-conditions-template/" target="_blank">terms and conditions</a></label>
+                <span id="termsError" class="error"></span><br>
+            </div>
+            <span id="termsError" class="error"></span><br>
+
+            <button id="login-button-register" type="submit">Register</button>
+            <div class="form-link">
+                <span>Already have an account? <a href="#" class="link signup-link">Login</a></span>
+            </div>
+           
+        </form>
+
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
